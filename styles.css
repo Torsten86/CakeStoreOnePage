@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-candy-pastel-color-pattern_23-2150623234.jpg?size=626&ext=jpg&ga=GA1.1.1269040533.1709078400&semt=ais');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-content,
+.contact-content,
+.product-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-image,
+.contact-image,
+.home-image,
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image img,
+.contact-image img,
+.home-image img,
+.product-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.about-text,
+.contact-text,
+.home-text,
+.product-text {
+    flex: 2;
+}
+
+.button-box {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.button-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-box button:hover {
+    background-color: #777;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.cupcakes-section,
+.wedding-cakes-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cupcake-box,
+.wedding-cake-box {
+    width: 45%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cupcake-box img,
+.wedding-cake-box img {
+    width: 100%;
+    max-width: 200px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
