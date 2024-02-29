@@ -135,3 +135,72 @@ footer {
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Set the desired max-width for the form */
+    margin: 0 auto;
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #777;
+}
+
+.subscription-form {
+    margin-top: 20px;
+}
+
+.subscription-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Set the desired max-width for the form */
+    margin: 0 auto;
+}
+
+.subscription-form label {
+    margin-bottom: 8px;
+}
+
+.subscription-form input {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.subscription-form button {
+    padding: 12px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscription-form button:hover {
+    background-color: #777;
+}
