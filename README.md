@@ -3,7 +3,7 @@ The subscription and the contact form, doesn't do anything, i have not added a w
 
 # Your Website
 
-Welcome to the official repository for "Your Website"!
+Welcome to the official repository for "Lexicon Bakery spring 2024"!
 
 ## Description
 
