@@ -16,10 +16,6 @@ This repository contains the HTML and CSS code for a simple and responsive webpa
 - [Products](#products)
 - [Contact](#contact)
 
-## Screenshots
-
-Insert screenshots or images of your webpage here.
-
 ## How to Use
 
 1. Clone the repository:
