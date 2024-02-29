@@ -21,4 +21,4 @@ This repository contains the HTML and CSS code for a simple and responsive webpa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-website.git
+   git clone https://github.com/Torsten86/CakeStoreOnePage.git
